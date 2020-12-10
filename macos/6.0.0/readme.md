@@ -1,0 +1,16 @@
+```
+Configuration:
+[settings]
+arch=x86_64
+build_type=Release
+compiler=apple-clang
+compiler.libcxx=libc++
+compiler.version=11.0
+os=Macos
+[options]
+qt6=6.0.0
+qtimageformats:shared=True
+[build_requires]
+[env]
+QT_PATH=/Users/duda/Qt/6.0.0/clang_64
+```
